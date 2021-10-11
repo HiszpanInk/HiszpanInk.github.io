@@ -5,6 +5,9 @@ body{
     background-color: black;
     font-family: monospace, Helvetica, Arial, sans-serif;
 }
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
     margin-top: 3%;
 }
@@ -14,6 +17,20 @@ header, main, footer{
     margin-left: 20%;
     margin-right: 20%;
 }
+footer{
+    margin-top: 5%;
+}
 ul{
     list-style-type: none;
+}
+a{
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#contact a{
+    color: rgb(23, 38, 88);
+    text-decoration: none;
 }
